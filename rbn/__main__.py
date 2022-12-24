@@ -1,4 +1,4 @@
-from . import listen_forever, band_mapping
+from rbn import listen_forever, band_mapping
 import argparse
 import sys
 
