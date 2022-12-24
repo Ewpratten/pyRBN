@@ -1,2 +1,2 @@
-from .listener import listen_forever
-from .bands import band_mapping
+from rbn.listener import listen_forever
+from rbn.bands import band_mapping

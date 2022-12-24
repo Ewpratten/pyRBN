@@ -1,6 +1,6 @@
 import asyncio
 import telnetlib3
-from .logging import RBN_LOGGER
+from .logging_rbn import RBN_LOGGER
 from typing import Callable
 
 from .telnet import telnet_handler, TelnetReaderUnicode, TelnetWriterUnicode

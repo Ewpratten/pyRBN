@@ -4,7 +4,7 @@ import re
 from telnetlib3.stream_reader import TelnetReaderUnicode
 from telnetlib3.stream_writer import TelnetWriterUnicode
 
-from .logging import RBN_LOGGER
+from .logging_rbn import RBN_LOGGER
 
 # Telnet addresses:
 # telnet.reversebeacon.net:7000 (CW, RTTY, ...)
